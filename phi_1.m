@@ -1,0 +1,16 @@
+function [x] = phi_1(y,f1,f2);
+if y>1-eps;
+    x = 1e-99;
+elseif y<eps;
+    x = 1e99;
+else;
+    if y>.0393;
+        x = ((.0218-log(y))/.4527)^(1/.86);
+    else;
+        x0 = 2*lambertw(.5*pi/y^2);
+        if ~isfinite(x0);x0=50;end;
+        x1 = fzero(f1,x0,[],y);
+        x2 = fzero(f2,x0,[],y);
+        x = (x1+x2)/2;
+    end;
+end;
