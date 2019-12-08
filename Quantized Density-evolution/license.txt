@@ -1,0 +1,35 @@
+This software is copyright (C) 2003 by Andrew W. Eckford (hereinafter "the 
+author").
+
+PERMISSION TO USE
+
+Permission is granted to use this software, in whole or in part, free of
+charge, for any non-commercial purpose, including not-for-profit
+university research.  A commercial purpose is defined as any officially
+sanctioned undertaking by any for-profit business.  To obtain a license to
+use this software for a commercial purpose, please contact the author.
+
+PERMISSION TO RE-DISTRIBUTE
+
+Permission is granted to re-distribute this software package, including
+all source files, if re-distributed as a whole and unmodified.  
+Permission is granted to re-distribute modified versions of this software
+package if the modifications are restricted to repackaging (e.g.,
+converting from .tar.gz to .zip), and the repackaged version contains all
+the original, unmodified files.  In addition to the original source files,
+permission is granted to distribute packages with executable versions of
+the software for any platform, if the executable version is obtained from
+the original source files and only those files, and if the original,
+unmodified source files are included in the package.  For other permission
+to re-distribute, please contact the author.
+
+COPYRIGHT HORIZON
+
+This license expires on January 17, 2018.  After that date, the author
+waives his rights to copyright over this software package, and the package
+enters the public domain.
+
+WARRANTY
+
+This software is offered "as-is".  By using this software, the user agrees
+to indemnify the author from any liability that may arise from its use.
