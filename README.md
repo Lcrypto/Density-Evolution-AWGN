@@ -3,7 +3,7 @@
 contain protograph reciprocal-channel approximation (RCA) for GA like approximation of Density Evolution Iterative Decoding Threshold of  Multi Edge Type (MET) LDPC Codes. Using RCA constructed codes from article  S.-Y.Chung G.D. Forney, T.J. Richardson, R. Urbanke  On the design of low-density parity-check codes within 0.0045 dB of the Shannon limit, IEEE Communications letters 5 (2), 58-60, 2001. RCA method in detail described at S.-Y.Chung,“On the construction of some capacity-approaching coding schemes,” Ph.D. dissertation, MIT, Cambridge, MA, 2000.  Tested on old (2011) and new version (2018) of Matlab and GNU Octave 5.1 (several times slower than Matlab). RCA-GA is one of the best method for fast DE approximation from runtime and accuracy.
 Protograph RCA not require to generate protograph, lift it directly using Simulated Annealing with girth/EMD (https://github.com/Lcrypto/Simulated-annealing-lifting-QC-LDPC) or another QC extension methods. 
 
-2. profgen.m - Density evolution based optimization of degree distribution for LDPC codes under AWGN-channel. Taked from https://www.ece.rice.edu/~debaynas/codes.html Alexandre de Baynast. Due to changes at lsqlin implementation work till R2016(active-set algorithm removed). New version of matlab currently not support. Thank to Dr. Ovinnikov A. for bug report.
+2. profgen.m - GA approximation of Density evolution based optimization of degree distribution for LDPC codes under AWGN-channel. Taked from https://www.ece.rice.edu/~debaynas/codes.html Alexandre de Baynast. Due to changes at lsqlin implementation work till R2016(active-set algorithm removed). New version of matlab currently not support. Thank to Dr. Ovinnikov A. for bug report.
 
 
 3. main.m at subfolder GA - contain Gaussian approximation based Differential Evolution optimization of LDPC Degree distribution from Dr. Chén Zǐ Qiáng (陈紫强), Guilin University of Electronic Technology (桂林电子科技大学，广西桂). 
@@ -13,6 +13,8 @@ Very good compare of quality of GA, GA-RCA and Pure DE at paper Sarah J. Johnson
 
 4. Add draft version of Covariance Evolution with Octopus protograph, as generalization of Density Evolution on Finite-Length https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/Covariance-Evolution. In Dr. Richardson file store tabulated values: 
 a,b,VN,CN,Circulant and calculate WER(SNR) = Q(a*(10*log10(SNR)-b)). Using linear interpolation get values for circulant between and calculate WER for them.
+
+5. Quantized Density Evolution from Dr. Andrew W. Eckford   https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/Quantized%20Density-evolution
 
 
 
