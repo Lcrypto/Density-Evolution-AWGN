@@ -16,7 +16,7 @@ a,b,VN,CN,Circulant and calculate WER(SNR) = Q(a*(10*log10(SNR)-b)). Using linea
 
 5. Quantized Density Evolution from Dr. Andrew W. Eckford   https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/Quantized%20Density-evolution
 
-6. Very usefull library QuantDMC ver 4 from 2016, Mutial Information optimization for quantized LLRs under Dicrete Memoryless Channel Optimization, e.x. non-uniformly quantized AWGN-channel optimization, https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/QuantDmc-4. Taked from Brian Kurkovskiy  http://www.jaist.ac.jp/is/labs/bits/source. In detail described at B. M. Kurkoski and H. Yagi, “Quantization of binary-input discrete memoryless channels,” IEEE Transactions on Information Theory, vol. 60, no. 8, pp. 4544-4552, August 2014. 
+6. Very usefull library QuantDMC ver 4 from 2016, Mutual Information optimization for quantized LLRs under Dicrete Memoryless Channel, e.x. non-uniformly quantized AWGN-channel optimization, https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/QuantDmc-4. Taked from Brian Kurkovskiy  http://www.jaist.ac.jp/is/labs/bits/source. In detail described at B. M. Kurkoski and H. Yagi, “Quantization of binary-input discrete memoryless channels,” IEEE Transactions on Information Theory, vol. 60, no. 8, pp. 4544-4552, August 2014. 
 Example of use you can see at https://github.com/Very-Fancy/ldpc-quant
 ![alt text](https://github.com/Lcrypto/Density-Evolution-AWGN/blob/master/QuantDmc-4/075eng.png)
 
