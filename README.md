@@ -42,6 +42,6 @@ and
 
 https://github.com/Lcrypto/-Greedy-Guess-and-Test-method-for-construction-QC-LDPC-codes-with-CPM-of-weigth-more-than-1.
 
-
+P.S. if you need degree distribution for relay flat fading use [DE for Relay flat-fading](https://github.com/Lcrypto/Density-Evolution-for-relay-flat-fading-channel-)
 
 
