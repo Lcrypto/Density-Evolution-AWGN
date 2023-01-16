@@ -20,6 +20,7 @@ a,b,VN,CN,Circulant and calculate WER(SNR) = Q(a*(10*log10(SNR)-b)). Using linea
 Example of use you can see at https://github.com/Very-Fancy/ldpc-quant
 ![alt text](https://github.com/Lcrypto/Density-Evolution-AWGN/blob/master/QuantDmc-4/075eng.png)
 
+7. Add very usefull Report on Density evolution threshold  Sarah J. Johnson Reported Thresholds and BER Performance for LDPC and LDPC-Like Codes
 
 
 To get protograph from protograph ensemble (weight profile: weight distribution, rho/lambda) use: 
