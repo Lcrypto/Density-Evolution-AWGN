@@ -29,7 +29,7 @@ To get protograph from protograph ensemble (weight profile: weight distribution,
 1. rand_proto.m - generate protograph according to weight distribution of variable and check.
 Algorithm probabalistical, can fail. Start script again several time (from 10 to 100K) or use different size of protograph and degree distibution.
 
-2. PEG  https://github.com/Lcrypto/classic-PEG- , PEG with ACE    https://github.com/Lcrypto/classic-PEG-/tree/master/QC-LDPC%20ACE-PEG
+2. PEG, PEG+ACE  https://github.com/Lcrypto/classic-PEG- , QC PEG with ACE  https://github.com/Lcrypto/classic-PEG-/tree/master/QC-LDPC%20ACE-PEG
 
 To lift protograph for certain circulant use:
 1. Simulated Annealing with girth/EMD - current state of the art lifting method for optimization of graph properties
