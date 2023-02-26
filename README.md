@@ -36,7 +36,7 @@ To lift protograph for certain circulant use:
 https://github.com/Lcrypto/Simulated-annealing-lifting-QC-LDPC
 
 
-2. Quasi Cyclic  PEG with ACE https://github.com/Lcrypto/classic-PEG-/tree/master/QC-LDPC%20ACE-PEG
+2. Quasi Cyclic  PEG with ACE https://github.com/Lcrypto/classic-PEG-/tree/master/QC-LDPC%20ACE-PEG  - previous best solution
 
 
 3. To compare you can try Fossorier's approach Guess-and-Test:
