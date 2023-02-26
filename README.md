@@ -34,7 +34,12 @@ Algorithm probabalistical, can fail. Start script again several time (from 10 to
 To lift protograph for certain circulant use:
 1. Simulated Annealing with girth/EMD - current state of the art lifting method for optimization of graph properties
 https://github.com/Lcrypto/Simulated-annealing-lifting-QC-LDPC
-2. To compare you can try Fossorier's approach Guess-and-Test:
+
+
+2. Quasi Cyclic  PEG with ACE https://github.com/Lcrypto/classic-PEG-/tree/master/QC-LDPC%20ACE-PEG
+
+
+3. To compare you can try Fossorier's approach Guess-and-Test:
 
 https://github.com/Lcrypto/Guess-and-Test-For-CPM-weight-more-1 
 
