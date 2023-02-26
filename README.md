@@ -11,10 +11,10 @@ Protograph RCA not require to generate protograph, lift it directly using Simula
 
 Very good compare of quality of GA, GA-RCA and Pure DE at paper Sarah J. Johnson, et al "A New Density Evolution Approximation for LDPC and Multi-Edge Type LDPC Codes," in IEEE Transactions on Communications, vol. 64, no. 10, pp. 4044-4056, Oct. 2016, https://arxiv.org/pdf/1605.04665.pdf.
 
-4. Add draft version of Covariance Evolution with Octopus protograph, as generalization of Density Evolution on Finite-Length https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/Covariance-Evolution. In Dr. Richardson file store tabulated values: 
+4. Add draft version of Covariance Evolution  (solution of peeling decoder differential equation) with Octopus protograph, as generalization of Density Evolution on Finite-Length https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/Covariance-Evolution. In Dr. Richardson file store tabulated values: 
 a,b,VN,CN,Circulant and calculate WER(SNR) = Q(a*(10*log10(SNR)-b)). Using linear interpolation get values for circulant between and calculate WER for them.
 
-5. Covariance Evolution (solution of peeling decoder differential equation) estimation of List Sum-Product iregullar LDPC decoder under q-ary symmetric channel from Dr. Fan Zhang, paper https://arxiv.org/abs/0806.3243,  Matlab source code https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/Covariance_Evolution_of_LIST_BP_under_q-ary_channel  
+5. Covariance Evolution estimation of irregular LDPC List Sum-Product decoder under q-ary symmetric channel from Dr. Fan Zhang, paper https://arxiv.org/abs/0806.3243,  Matlab source code https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/Covariance_Evolution_of_LIST_BP_under_q-ary_channel  
 
 6. Quantized Density Evolution from Dr. Andrew W. Eckford   https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/Quantized%20Density-evolution
 
