@@ -14,14 +14,13 @@ Very good compare of quality of GA, GA-RCA and Pure DE at paper Sarah J. Johnson
 4. Add draft version of Covariance Evolution with Octopus protograph, as generalization of Density Evolution on Finite-Length https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/Covariance-Evolution. In Dr. Richardson file store tabulated values: 
 a,b,VN,CN,Circulant and calculate WER(SNR) = Q(a*(10*log10(SNR)-b)). Using linear interpolation get values for circulant between and calculate WER for them.
 
-5. Quantized Density Evolution from Dr. Andrew W. Eckford   https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/Quantized%20Density-evolution
+5. Covariance Evolution (solution of peeling decoder differential equation) estimation of List Sum-Product iregullar LDPC decoder under q-ary symmetric channel from Dr. Fan Zhang, paper https://arxiv.org/abs/0806.3243,  Matlab source code https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/Covariance_Evolution_of_LIST_BP_under_q-ary_channel  
 
-6. Very usefull library QuantDMC ver 4 from 2016, Mutual Information optimization for quantized LLRs under Dicrete Memoryless Channel, e.x. non-uniformly quantized AWGN-channel optimization, https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/QuantDmc-4. Taked from Brian Kurkovskiy  http://www.jaist.ac.jp/is/labs/bits/source. In detail described at B. M. Kurkoski and H. Yagi, “Quantization of binary-input discrete memoryless channels,” IEEE Transactions on Information Theory, vol. 60, no. 8, pp. 4544-4552, August 2014. 
+6. Quantized Density Evolution from Dr. Andrew W. Eckford   https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/Quantized%20Density-evolution
+
+7. Very usefull library QuantDMC ver 4 from 2016, Mutual Information optimization for quantized LLRs under Dicrete Memoryless Channel, e.x. non-uniformly quantized AWGN-channel optimization, https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/QuantDmc-4. Taked from Brian Kurkovskiy  http://www.jaist.ac.jp/is/labs/bits/source. In detail described at B. M. Kurkoski and H. Yagi, “Quantization of binary-input discrete memoryless channels,” IEEE Transactions on Information Theory, vol. 60, no. 8, pp. 4544-4552, August 2014. 
 Example of use you can see at https://github.com/Very-Fancy/ldpc-quant
 ![alt text](https://github.com/Lcrypto/Density-Evolution-AWGN/blob/master/QuantDmc-4/075eng.png)
-
-
-7. Covariance Evolution (solution of differential equation) implementation of List Sum-Product decoder under q-ary symmetric channel from Dr. Fan Zhang 
 
 
 
