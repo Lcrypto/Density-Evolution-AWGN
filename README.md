@@ -24,7 +24,11 @@ Example of use you can see at https://github.com/Very-Fancy/ldpc-quant
 
 
 
-8. Add very usefull Report on Density evolution threshold  Sarah J. Johnson Reported Thresholds and BER Performance for LDPC and LDPC-Like Codes https://github.com/Lcrypto/Density-Evolution-AWGN/blob/master/Reported%20Thresholds%20and%20BER%20for%20LDPC.pdf
+8. Python implementation of DE and GA. https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/density_evolution_ga_python
+
+9. Add very usefull Report on Density evolution threshold  Sarah J. Johnson Reported Thresholds and BER Performance for LDPC and LDPC-Like Codes https://github.com/Lcrypto/Density-Evolution-AWGN/blob/master/Reported%20Thresholds%20and%20BER%20for%20LDPC.pdf
+
+
 
 
 To get protograph from protograph ensemble (weight profile: weight distribution, rho/lambda) use: 
