@@ -1,0 +1,29 @@
+run_id: "discrete_test2"
+n_processes: 4 # number of process to be used for multiprocessing. Only need if running parallel scripts
+density_evolution:
+  Np: 10 # number of individuals in population
+  generations: 1000 # number of generations.
+  n_grid: 2048 # number of bins in pdf
+  min_rber: 0.0001 # lowest rber in search interval (>=0.001)
+  max_rber: 0.059 # highest rber in search interval (<0.5)
+  de_iter: 50 # max number of iterations to perform on density evolution
+  de_tol: 5e-2 # The floor that has to be reached to determine when density evolution has succeeded (rber*de_tol).
+  is_converged_tol: 1e-15 # Difference between itererations to determine when converged
+  bs_tol: 1e-4 # the precisision of the bisection search algorithm
+  algorithm: "ga_discrete_parallel" # choose between "ga_discrete", "ga_continuous", "ga_discrete_parallel" or "ga_continuous_parallel"
+  load_population: False # if previous training has been done, one can start from that by setting to True
+  save_interval: 1 # how many generations that should pass before saving population
+  print_terminal: True # if set to true the log will be outputed in terminal. Otherwise written to log/log.txt
+  dmc_file: "../compute_dmc/data/2_05_AWGN.csv" # file from compute_dmc calculation
+  ga_continuous:
+    R: 0.87671232876 # code rate
+    F: 0.5 # mutation variable. Usually in interval [0.1,1].
+    Cr: 0.7 # recombination probability, [0,1].
+    dv: 5 # max variable node edge-perspective degree
+    dc: 20 # max check node edge-perspective degree
+  ga_discrete:
+    n_vn: 73
+    n_cn: 9
+    p_vertical: 0.3
+    p_horizontal: 0.3
+    p_mutation: 0.1
