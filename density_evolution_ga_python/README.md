@@ -9,7 +9,7 @@ The main script is [density_evolution.py](./density_evolution.py). The parameter
 
 There are two types of algorithms implemented to optimize degree distributions based on density evolution. The first ([ga_continuous.py](./ga_continuous.py)) uses the concept of differential evolution to find optimal solutions constrained by maximum allowed degree distributions. Furthermore, the degree distributions are considered continuous in this aspect. This algorithm is not error free and could be improved significantly.  
 
-The other algorithm, and the one that has been used most in this project ([ga_discrete.py](ga_discrete.py)), genetically optimizes degree distributions based on the constraints set by the size of the protograph used in [MM_QC_PEGA](../mm_qc_pega).
+The other algorithm, and the one that has been used most in this project ([ga_discrete.py](ga_discrete.py)), genetically optimizes degree distributions based on the constraints set by the size of the protograph used in [MM_QC_PEGA](https://github.com/Lcrypto/classic-PEG-/tree/master/mm_qc_pega).
 
 Lastly, since the algorithms are rather complex, the multiprocessing library has been used to run the optimizations in parallel. An illustration of how multiprocessing has been used can be seen in [multiprocessing_illustration.py](multiprocessing_illustration.py).
 
