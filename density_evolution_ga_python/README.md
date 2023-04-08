@@ -82,6 +82,7 @@ $ screen -ls
 
 # Sources
 
-Design of capacity-approaching irregular low-density parity-check codes: [https://ieeexplore.ieee.org/document/910578](https://ieeexplore.ieee.org/document/910578)
+[1] T. J. Richardson, M. A. Shokrollahi and R. L. Urbanke, "Design of capacity-approaching irregular low-density parity-check codes," in IEEE Transactions on Information Theory, vol. 47, no. 2, pp. 619-637, Feb 2001 [https://ieeexplore.ieee.org/document/910578](https://ieeexplore.ieee.org/document/910578)
 
-Density Evolution for Asymmetric Memoryless Channels: [https://arxiv.org/pdf/cs/0509014.pdf](https://arxiv.org/pdf/cs/0509014.pdf)
+
+[2] Chih-Chun Wang, S. R. Kulkarni and H. V. Poor, "Density evolution for asymmetric memoryless channels," in IEEE Transactions on Information Theory, vol. 51, no. 12, pp. 4216-4236, Dec. 2005  [https://arxiv.org/pdf/cs/0509014.pdf](https://arxiv.org/pdf/cs/0509014.pdf)
