@@ -24,7 +24,7 @@ Example of use you can see at https://github.com/Very-Fancy/ldpc-quant
 
 
 
-8. Python implementation of Density evolution for Asymmetric memoryless channels. Differential evolution to find optimal solutions constrained by maximum allowed degree distributions. Gaussian Approximation omplementation for construction Multi-edge(Richardson-Urbanke called)/Protograph(Divsalar's called) QC-LDPC Codes  https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/density_evolution_ga_python
+8. Python implementation of Density evolution for Asymmetric memoryless channels. Differential evolution to find optimal solutions constrained by maximum allowed degree distributions. Gaussian Approximation implementation for construction Multi-edge(called by Richardson-Urbanke Flarion-Qualcomm)/Protograph(called by Divsalar Jet Propulsion lab) QC-LDPC Codes  https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/density_evolution_ga_python . Multi-edge and Protograph are different name for same QC-LDPC codes. 
 
 9. Add very usefull Report on Density evolution threshold  Sarah J. Johnson Reported Thresholds and BER Performance for LDPC and LDPC-Like Codes https://github.com/Lcrypto/Density-Evolution-AWGN/blob/master/Reported%20Thresholds%20and%20BER%20for%20LDPC.pdf
 
