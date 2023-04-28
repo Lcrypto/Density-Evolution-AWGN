@@ -24,7 +24,10 @@ The paper titled "A New Density Evolution Approximation for LDPC and Multi-Edge 
 
 7. The QuantDMC ver 4 library, developed in 2016, provides Mutual Information optimization for quantized LLRs under Discrete Memoryless Channel. For example, it includes non-uniformly quantized AWGN-channel optimization, which can be found at https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/QuantDmc-4. Brian Kurkovskiy's website at http://www.jaist.ac.jp/is/labs/bits/source hosts the code. The paper titled "Quantization of binary-input discrete memoryless channels" by B. M. Kurkoski and H. Yagi, published in IEEE Transactions on Information Theory in August 2014, provides an in-depth description of the library.
 
-An example of how to use the QuantDMC ver 4 library can be found at https://github.com/Very-Fancy/ldpc-quant. An image from the library is shown below: 
+An example of how to use the QuantDMC ver 4 library can be found at https://github.com/Very-Fancy/ldpc-quant. An figure from the library application for quantization optimization is shown below: 
+
+
+
 ![alt text](https://github.com/Lcrypto/Density-Evolution-AWGN/blob/master/QuantDmc-4/075eng.png)
 
 
