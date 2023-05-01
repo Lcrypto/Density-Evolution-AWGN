@@ -34,7 +34,7 @@ An example of how to use the QuantDMC ver 4 library can be found at https://gith
 
 8. The Density Evolution for Asymmetric Memoryless Channels has been implemented in Python and can be found at https://github.com/Lcrypto/Density-Evolution-AWGN/tree/master/density_evolution_ga_python. Differential evolution is used to find optimal solutions constrained by maximum allowed degree distributions. The Gaussian Approximation implementation is used to construct Multi-edge or Protograph QC-LDPC codes for Richardson-Urbanke Flarion-Qualcomm and Divsalar Jet Propulsion Lab, respectively. It is important to note that the terms "Multi-edge" and "Protograph" refer to the same QC-LDPC codes.
 
-9. The "Reported Thresholds and BER Performance for LDPC and LDPC-Like Codes" by Sarah J. Johnson provides valuable information on Density Evolution threshold. The report can be found at https://github.com/Lcrypto/Density-Evolution-AWGN/blob/master/Reported Thresholds and BER for LDPC.pdf.
+9. The "Reported Thresholds and BER Performance for LDPC and LDPC-Like Codes" by Sarah J. Johnson provides valuable information on Density Evolution threshold. The report can be found at https://github.com/Lcrypto/Density-Evolution-AWGN/blob/master/Reported%20Thresholds%20and%20BER%20Performance%20for%20LDPC.pdf.
 
 
 
