@@ -37,14 +37,14 @@ py   = sum(pxy,1);
 pxgy = pxy' ./ repmat(py(:)',J,1)';
 
 % Random mean initialization
-% sample = randperm(M);
-% means  = zeros(K,J);
-% for i = 1:K
-%     means(i,:) = pxgy(sample(i),:);
-% end
+ sample = randperm(M);
+ means  = zeros(K,J);
+ for i = 1:K
+     means(i,:) = pxgy(sample(i),:);
+ end
 
 % Seeding mean initialization
-means = seed(pxgy,K);
+% means = seed(pxgy,K);
 
 thisMeans = zeros(size(means));
 
